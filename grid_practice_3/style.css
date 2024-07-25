@@ -1,0 +1,38 @@
+.grid-container { 
+    display: grid; 
+    grid-template-columns: 200px auto 250px 200px;
+    background-color: rgb(188, 188, 219);
+} 
+.grid-container > div { 
+    padding: 10px; 
+    border: 1px solid black; 
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
