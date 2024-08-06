@@ -1,0 +1,17 @@
+.flex-container { 
+    display: flex; 
+    flex-flow: row wrap;
+    background-color: dodgerblue;
+} 
+.flex-container > div { 
+    background-color: #f1f1f1; 
+    margin: 10px;
+    padding: 10px;
+    width: 50px; 
+    text-align: center;
+    font-size: 15px;
+} 
+
+/* 
+  flex-flow - is a shorthand property for setting both the flex-direction and flex-wrap properties
+*/

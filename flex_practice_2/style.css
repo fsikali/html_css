@@ -1,5 +1,26 @@
+.flex-container { 
+    display: flex; 
+    flex-wrap: wrap;
+    background-color: dodgerblue;
+} 
+.flex-container > div { 
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin: 10px; 
+    width: 50px; 
+    text-align: center;
+    font-size: 15px; 
+}
+
+/* 
+  flex-wrap property - specifies whether the flex items should wrap or not 
+  wrap - specifies the items will wrap if necessary 
+  nowrap - specifies that the flex items will not wrap (this is default) 
+  wrap-reverse - value specifies that the flexible items will wrap if necessary, in reverse order
 
 
+
+ */
 
 
 
