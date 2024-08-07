@@ -13,7 +13,7 @@
 } 
 
 /* 
-    justify-content - is used to align items 
+    justify-content - is used to align the flex items 
     center- aligns the flex items at the center of the container
     flex-start - aligns the flex items at the beginning of the container (this is default) 
     flex-end - aligns the flex items at the end of the container 

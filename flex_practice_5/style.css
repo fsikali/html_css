@@ -1,0 +1,36 @@
+.flex-container { 
+    display: flex;
+    height: 200px; 
+    align-items: center;
+    background-color: dodgerblue;
+}
+.flex-container > div { 
+    background-color: #f1f1f1; 
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    text-align: center;  
+}
+
+/*
+   The align-items property: Is used to align the flex items
+   --- 200px container is for a better demonstration
+   center - aligns the flex items in the middle of the container
+   flex-start - aligns the flex items at the top of the container
+   flex-end - aligns the flex items at the bottom of the container
+   stretch - stretches the flex items to fill the container (this is default) 
+   base line - aligns the fles items such as their baselines aligns
+   N/B - The example uses different fontsize to demonstrate that the items gets aligned
+   by the text baseline
+
+*/
+
+
+
+
+
+
+
+
+
+
