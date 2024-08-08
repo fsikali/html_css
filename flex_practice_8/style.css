@@ -1,0 +1,34 @@
+/* The order property  
+- It specifies the order of the flex items 
+- The first item in the code does not have to appear as the first item in the layout
+- The order value must be a number, default value is 0
+*/
+.flex-container { 
+    display: flex;
+    background-color: #f1f1f1;  
+    height: 200px;
+    align-items: center;
+}
+.flex-container > div { 
+    background-color: dodgerblue; 
+    margin: 10px;
+    padding: 10px;
+    width: 50px; 
+    text-align: center; 
+    color: white;
+} 
+
+/* 
+  Child Elements (Items) - The direct element of a flex container automatically becomes
+  flexible (flex) items 
+  The element above represents four blue flex items inside a grey flex container
+  The flex items properties are: 
+  - order 
+  - flex-grow
+  - flex-shrink
+  - flex-basis
+  - flex 
+  - align-self
+*/
+
+

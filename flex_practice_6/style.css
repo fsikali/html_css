@@ -1,0 +1,29 @@
+.flex-container { 
+    display: flex; 
+    background-color: dodgerblue;  
+    flex-wrap: wrap; 
+    height: 600px;
+    align-content: center;
+} 
+.flex-container > div { 
+    background-color: #f1f1f1; 
+    margin: 10px; 
+    padding: 10px; 
+    width: 100px; 
+    text-align: center;
+    
+} 
+
+/* 
+   align-content property - Is used to align the flex lines
+   In this example we use a 600 pixel high container, with the flex-wrap property set to 
+   wrap, to better demostrate the align-content property 
+    
+   space-between - displays the flex lines with equal space between them 
+   space-round - displays the flex lines with space before, between, and after them 
+   stretch - stretches the flex lines to take up the remaining space (this is default) 
+   center - displays display the flex lines in the middle of the container 
+   flex-start - displays the flex lines at the start of the container
+   flex-end - displays the flex lines at the end of the container 
+
+*/

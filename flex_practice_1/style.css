@@ -15,13 +15,14 @@
 
 
 /* 
-  flex-container properties are: 
   --- flex-direction - defines in which direction the container wants to stack the flex items 
    * column - stacks the flex items vertically ( from top to bottom )
    * column-reverse - stacks the flex items vertically ( but from bottom to top ). 
    * row - stacks the flex items horizontally (from left to right)  
    * row-reverse - stacks the flex items horizontally ( but from right to left )
-
+ 
+  flex-container properties are: 
+  --- flex-direction 
   --- flex-wrap 
   --- flex-flow 
   --- justify-content

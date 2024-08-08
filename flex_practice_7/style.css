@@ -1,0 +1,23 @@
+.flex-container { 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    background-color: dodgerblue; 
+    height: 300px;
+} 
+.flex-container > div { 
+    background-color: #f1f1f1; 
+    margin: 10px;
+    padding: 10px; 
+    height: 100px; 
+    width: 100px;
+    text-align: center;
+    align-content: center;
+} 
+
+/*
+  Perfect centering: 
+  N/B - This is a very common style problem: perfect centering
+  Solution - Set both justify-content and align-items properties to center, and the flex
+  item will be perfectly centered
+*/
